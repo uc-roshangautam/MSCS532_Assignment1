@@ -12,6 +12,22 @@ def insertion_sort_in_dec_order(arr):
     return arr
 
 if __name__ == "__main__":
-    data = [5, 2, 9, 9, 3, 6]
-    sorted_data = insertion_sort_in_dec_order(data)
-    print("Sorted in decreasing order:", sorted_data)
+    print("--------------------------------------------------------")
+    print("\n--- Sorting in decreasing order using Insertion Sort ---\n")
+    print("--------------------------------------------------------")
+    # Example 1
+    data1 = [5, 2, 9, 9, 3, 6]
+    print("Original data:", data1)
+    print("Sorted: ", insertion_sort_in_dec_order(data1))
+    print()
+    # Example 2
+    data2 = [1, 4, 3, 2, 5]
+    print("Original data:", data2)
+    print("Sorted: ", insertion_sort_in_dec_order(data2))
+    print()
+    # Example 3
+    data3 = [10, 20, 30, 40, 50]
+    print("Original data:", data3)
+    sorted_data = insertion_sort_in_dec_order(data3)
+    print("Sorted: ", sorted_data)
+    print("--------------------------------------------------------")
